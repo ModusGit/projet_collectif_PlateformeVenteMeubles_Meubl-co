@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 // Style bootstrap de Header
 function Header() {
   return (
-    <Navbar style={{ backgroundColor: '#6D9075', color: 'white'}}>
+    <Navbar style={{ backgroundColor: '#6D9075', color: 'white', top:"0", position:"fixed", minWidth:"100vw", zIndex:"999"}}>
       <Container>
       <Link to = "/"><Navbar.Brand><img src="img/logo.svg" alt="logo meubl&Co"/></Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

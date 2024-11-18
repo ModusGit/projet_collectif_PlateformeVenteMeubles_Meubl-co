@@ -5,7 +5,7 @@ import Product from '../components/Product'
 const Solo = () => {
   const [supplies, setSupplies] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/api/supply/product/1")
+    fetch("https://localhost:8000/api/supply/product/1")
       .then((res) => { 
         return res.json();
   })
