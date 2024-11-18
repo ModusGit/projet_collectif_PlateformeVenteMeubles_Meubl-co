@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const Lumis =() => {
     const [lumis, setLumis] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:8000/api/supply/luminaires")
+        fetch("https://localhost:8000/api/supply/luminaires")
             .then((res) => { 
                 return res.json();
     })
@@ -16,7 +16,7 @@ const Lumis =() => {
     }, []);
 
         return (
-            <div>
+            <div style={{paddingTop:'95px'}}>
                 <h2 style={{fontWeight: 100}}><img style={{width:'6%'}} src="../img/lamp.png" alt="Lamp from Flaticon"/> • Notre sélection de luminaires •</h2>
                     {lumis.map((lumi) => (
                         <div key={lumi.id}>

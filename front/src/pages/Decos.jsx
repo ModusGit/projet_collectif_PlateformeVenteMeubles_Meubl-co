@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const Decos =() => {
     const [decos, setDecos] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:8000/api/supply/decoration")
+        fetch("https://localhost:8000/api/supply/decoration")
             .then((res) => { 
                 return res.json();
     })
@@ -16,7 +16,7 @@ const Decos =() => {
     }, []);
 
         return (
-            <div>
+            <div style={{paddingTop:'95px'}}>
                 <h2 style={{fontWeight: 100}}><img style={{width:'6%'}} src="../img/plant.png" alt="Plant from Flaticon"/> • Notre sélection decoration •</h2>
                     {decos.map((deco) => (
                         <div key={deco.id}>

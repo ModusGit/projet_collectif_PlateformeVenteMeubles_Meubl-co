@@ -8,7 +8,7 @@ import One from "../components/One";
 const Fetch = () => {
   const [supplies, setSupplies] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/api/supply")
+    fetch("https://localhost:8000/api/supply")
       .then((res) => { 
         return res.json();
   })

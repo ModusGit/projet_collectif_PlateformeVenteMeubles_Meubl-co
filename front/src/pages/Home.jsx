@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     
-    <div>
+    <div style={{paddingTop:'95px'}} >
       <h2>Bienvenue sur MEUBLECO : la seconde main qu'il vous faut <span style={{fontSize:'14px'}}>(peut-être...)</span></h2>
       <ProductList />  {/* affichage de toutes la liste produits  */}   
     </div>
