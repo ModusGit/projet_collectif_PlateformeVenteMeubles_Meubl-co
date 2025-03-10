@@ -1,7 +1,8 @@
 # Application de vente de meubles « Meubl&co » - 6 coéquipiers - 2 semaines
 
-Création d'une application d’administration de restaurants permettant de configurer un maximum d’options pour chaque établissement. Accessible depuis un poste fixe, cette application fonctionne exclusivement en mode console et offre une interface simple et intuitive pour effectuer diverses opérations de gestion.<br> 
+Mise en place d'une organisation pour créer un produit commandé, avec une équipe Front-end et une équipe Back-end.<br> 
+Création de routes et de bases de données avec un framework back-end, et développement de single-page-application avec des composants autonomes front-end.<br> 
 <br> 
-Java EE<br>
+SYMFONY PHP - REACT - BOOTSTRAP<br>
 <br>
-<i>Projet collectif M2i Formation 2025 - crédits Abdel, Régis, Valentin et Maud</i>
+<i>Projet collectif ADA Tech School 2024 - crédits Adriana, Bertrand, Caroline, Cindy, Hassen et Maud</i>
